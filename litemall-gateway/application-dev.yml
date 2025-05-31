@@ -14,7 +14,7 @@ spring:
       globalcors:
         corsConfigurations:
           '[/**]':
-            allowedOrigins: "http://localhost:9000" #Allow the origin of your request
+            allowedOrigins: "http://localhost:9001" #Allow the origin of your request
             allowedMethods: "*"
             allowCredentials: true
       routes:
@@ -28,7 +28,7 @@ spring:
             - Path=/wx/**
 
 server:
-  port: 8761
+  port: 9001
 
 eureka:
   instance:
